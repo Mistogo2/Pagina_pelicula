@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infinity War</title>
+    <link rel="icon" href="resources/m.png" type="image/png">
+    <link rel="stylesheet" href="styless.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="logo">
+                <a href="#">
+                    <img src="resources/logo.png" alt="Logo Marvel" class="logo-main">
+                    <img src="resources/m.png" alt="Logo M" class="logo-alt">
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#sinopsis">Sinopsis</a></li>
+                <li><a href="#">Personajes</a></li>
+                <li><a href="#">Galería</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="main-container">
+        <!-- Sección del Carrusel -->
+        <section class="section">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="resources/vengadores y thanos.jpg" alt="Slide 1">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="resources/pelea thanos.webp" alt="Slide 2">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="resources/thanos y las gemas.jpg" alt="Slide 3">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="resources/ironman.jpeg" alt="Slide 4">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="resources/thor.jpeg" alt="Slide 5">
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <!-- Sección de Sinopsis -->
+        <section class="sinopsis">
+            <div class="container">
+                <!-- Texto principal -->
+                <div class="texto">
+                    <h3>DETALLES</h3>
+                    <h2>Avengers: Infinity War de Marvel Studios</h2>
+                    <p>
+                        Llega la batalla más sangrienta de todos los tiempos. Los Avengers y sus aliados 
+                        superhéroes deben arriesgarlo todo para poder derrotar al poderoso Thanos, antes de que 
+                        su bombardeo de destrucción y ruina termine con el universo. Algunas secuencias o patrones 
+                        de luces intermitentes pueden afectar a espectadores fotosensibles.
+                    </p>
+                </div>
+                <div class="franja-blanca arriba"></div> <!-- Franja superior -->
+                <!-- Columna de detalles -->
+                <div class="detalles">
+                    <p><strong>Duración:</strong> 2 h 34 min</p>
+                    <p><strong>Fecha de estreno:</strong> 2018</p>
+                    <p><strong>Género:</strong> Ciencia ficción, Fantasía, Superhéroes, Acción y aventura</p>
+                    <p><strong>Clasificación:</strong> <span class="clasificacion">PG-13</span></p>
+                </div>
+                <div class="franja-blanca abajo"></div> <!-- Franja superior -->
+                <!-- Nueva columna para "Dirigido por" y "Elenco" -->
+                <div class="creditos">
+                    <p><strong>Dirigido por:</strong><br> Anthony Russo<br>Joe Russo</p>
+                    <p><strong>Elenco:</strong><br> Robert Downey Jr.<br>Chris Hemsworth<br>Mark Ruffalo<br>Chris Evans<br>Scarlett Johansson<br>Don Cheadle</p>
+                </div>
+            </div>
+        </section>
+        
+     
+        <div class="video-container">
+            <video autoplay loop muted playsinline>
+                <source src="resources/215694_small.mp4" type="video/mp4">
+                Tu navegador no soporta videos HTML5.
+            </video>
+        </div>
+        <section class="galeria">
+            <div class="Titulo-galeria">
+                <h2>Galeria</h2>
+            </div>
+            <div class="galeria-item">
+                <img src="resources/trailer.webp" alt="Imagen">
+                <div class="galeria-info">
+                    <h3>Tráiler</h3>
+                    <p>Revive la emoción con el tráiler oficial de la película.</p>
+                </div>
+            </div>
+            
+            <div class="galeria-item">
+                <img src="resources/detras de camara.jpg" alt="Imagen">
+                <div class="galeria-info">
+                    <h3>Detrás de cámaras</h3>
+                    <p>Un vistazo exclusivo al rodaje y efectos especiales.</p>
+                </div>
+            </div>
+            
+            <div class="galeria-item">
+                <img src="resources/personajes.jpeg" alt="Imagen">
+                <div class="galeria-info">
+                    <h3>Personajes</h3>
+                    <p>Conoce a los héroes y villanos que hacen épica esta historia.</p>
+                </div>
+            </div>
+            
+            <div class="galeria-item">
+                <img src="resources/directores.webp" alt="Imagen">
+                <div class="galeria-info">
+                    <h3>Directores</h3>
+                    <p>Los hermanos Russo, mentes maestras detrás de la película.</p>
+                </div>
+            </div>
+            
+            <div class="galeria-item">
+                <img src="resources/anteriores.jpg" alt="Imagen">
+                <div class="galeria-info">
+                    <h3>Películas anteriores</h3>
+                    <p>Revive los eventos previos que llevaron a esta historia.</p>
+                </div>
+            </div>
+            
+            
+        </section>
+
+        
+        
+        
+    </div>
+
+    <section class="contenedor-formularios">
+        <div class="formularios">
+            <!-- Formulario de Contacto -->
+            <form class="formulario">
+                <h2>Formulario de Contacto</h2>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                
+                <label for="correo">Correo:</label>
+                <input type="email" id="correo" name="correo" required>
+                
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono">
+    
+                <label for="descripcion">Descripción:</label>
+                <textarea id="descripcion" name="descripcion" rows="4"></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+    
+           
+        
+        </div>
+    </section>
+    
+    
+    
+
+    <footer class="footer">
+        <!-- Primer Nivel -->
+        <div class="footer-top">
+            <!-- Logo a la izquierda -->
+            <div class="footer-logo">
+                <img src="resources/logo.png" alt="Marvel Logo">
+            </div>
+    
+            <!-- Enlaces en el centro -->
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#">About Marvel</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Advertising</a></li>
+                    <li><a href="#">MarvelHQ.com</a></li>
+                    <li><a href="#">Help/FAQs</a></li>
+                    <li><a href="#">Internships</a></li>
+                    <li><a href="#">Disney+</a></li>
+                    <li><a href="#">Redeem Digital Comics</a></li>
+                </ul>
+            </div>
+    
+            <!-- Mapa a la derecha -->
+            <div class="footer-map">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509007!2d-122.41941518468192!3d37.77492977975986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f7e2e2c3d19f7%3A0xa0f9b14db0b7e1f1!2sMarvel%20Studios!5e0!3m2!1sen!2sus!4v1616136365368!5m2!1sen!2sus" 
+                    width="400" 
+                    height="300" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+            </div>
+        </div>
+    
+        <!-- Línea de separación -->
+        <div class="footer-separator"></div>
+    
+        <!-- Segundo Nivel -->
+        <div class="footer-bottom">
+            <div class="footer-social">
+                <p>Follow Marvel</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                </div>
+            </div>
+            <div class="footer-legal">
+                <ul>
+                    <li><a href="#">Condiciones para el uso</a></li>
+                    <li><a href="#">Política de Privacidad</a></li>
+                    <li><a href="#">Anuncios basados en intereses</a></li>
+                    <li><a href="#">Acuerdo de licencia</a></li>
+                </ul>
+                <p>© 2025 MARVEL</p>
+            </div>
+        </div>
+    </footer>
+    
+    
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
