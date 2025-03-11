@@ -6,6 +6,7 @@
     font-family: Arial, sans-serif;
 }
 
+/* Habilita un desplazamiento suave en la página al hacer clic en enlaces internos */
 html {
     scroll-behavior: smooth;
   }
@@ -96,7 +97,7 @@ html {
     padding: 5px;
 }
 
-/* Swiper */
+/* Estilos del carrusel */
 .swiper {
     width: 100%;
     height: 1000px;
@@ -116,6 +117,7 @@ html {
 }
 
 
+/* Estilos section sinopsis*/
 
 .sinopsis {
     position: relative;
@@ -203,20 +205,11 @@ html {
 /* Franjas blancas para separar bloques */
 .franja-blanca {
     width: 3px;
-    height: 250px; /* Ajusta la altura según necesites */
+    height: 250px; 
     background-color: white;
-    margin: 2px 0; /* Espacio antes y después para separación */
+    margin: 2px 0; 
 }
 
-
-
-
-/* Quitar margen y padding */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 /* Contenedor del video */
 .video-container {
@@ -349,14 +342,6 @@ html {
 }
 
 
-.swiper-button-next, .swiper-button-prev {
-    color: white;
-}
-
-.swiper-pagination-bullet {
-    background: white;
-}
-
 /* Contenedor de los formularios */
 .formularios-container {
     display: flex;
@@ -395,7 +380,7 @@ html {
     margin-bottom: 15px;
 }
 
-/* Inputs y Textarea */
+/* Inputs y Textarea de los formularios */
 .formulario input,
 .formulario textarea,
 .formulario select {
@@ -407,7 +392,7 @@ html {
     font-size: 16px;
 }
 
-/* Botón */
+/* Botón enviar del formulario*/
 .formulario button {
     width: 100%;
     padding: 10px;
@@ -423,7 +408,7 @@ html {
     background-color: #b02a2a;
 }
 
-/* Estilos generales */
+/* Estilos generales del footer */
 .footer {
     background-color: #151515;
     color: white;
@@ -442,7 +427,7 @@ html {
     width: 80%;
 }
 
-/* Logo de Marvel alineado a la izquierda */
+/* Logo de Marvel footer*/
 .footer-logo img {
     height: 100px;
 }
