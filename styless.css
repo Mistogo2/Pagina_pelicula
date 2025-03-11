@@ -6,6 +6,10 @@
     font-family: Arial, sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 /* Estilos del navbar */
 .navbar {
     background-color: #202020;
@@ -343,10 +347,6 @@
 .galeria-item:hover .galeria-info {
     transform: translateY(0);
 }
-
-
-
-
 
 
 .swiper-button-next, .swiper-button-prev {
